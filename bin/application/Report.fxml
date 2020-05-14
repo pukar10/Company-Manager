@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ReportController">
+   <top>
+      <Label text="Report Page" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <left>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label text="Employee Info" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <Label fx:id="employeeInfo" text="Label" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </left>
+   <bottom>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label text="Employee Works on" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <Label fx:id="employeeWorksOn" text="Label" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </bottom>
+   <right>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label text="Employee Dependent" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <Label fx:id="employeeDependent" text="Label" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </right>
+</BorderPane>
